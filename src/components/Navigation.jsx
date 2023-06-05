@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import "./css/HenryStyle/hamburgers.css";
 import axios from "axios";
 import { baseUrl } from "../assets/config";
 import { useHistory } from "react-router-dom/cjs/react-router-dom";
-import useSwaAlert from "../components/swaAlert";
+// import useSwaAlert from "../components/swaAlert";
 
 const Navigation = ({
 	currentUser,
@@ -17,7 +17,7 @@ const Navigation = ({
 	// console.log(avatarImg)
 
 	const history = useHistory();
-	const swaAlert = useSwaAlert();
+	// const swaAlert = useSwaAlert();
 	const url = baseUrl;
 
 	useEffect(() => {

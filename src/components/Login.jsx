@@ -72,12 +72,12 @@ const Login = ({ setCurrentUser, setavatarImg, currentUser }) => {
 		}
 	}
 
-	const google = () => {
-		window.open(`${url}/auth/google`, "_self");
-	};
-	const facebook = () => {
-		window.open(`${url}/auth/facebook`, "_self");
-	};
+	// const google = () => {
+	// 	window.open(`${url}/auth/google`, "_self");
+	// };
+	// const facebook = () => {
+	// 	window.open(`${url}/auth/facebook`, "_self");
+	// };
 
 	return (
 		<div className="page">
