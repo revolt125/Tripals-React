@@ -9,7 +9,7 @@ import GoogleMapRender from "./components/GoogleMapRender";
 import axios from "axios";
 import useSwaConfirm from "../../components/swaConfirm";
 import useSwaAlert from "../../components/swaAlert";
-import { baseUrl } from "./config";
+import { baseUrl } from "../../assets/config";
 import { compareData } from "./compareData";
 import styles from "./Edit.module.scss";
 

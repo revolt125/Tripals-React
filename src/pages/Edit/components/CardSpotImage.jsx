@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "../Edit.module.scss";
 import BtnUpload from "./BtnUpload";
-import { baseUrl } from "../config";
+import { baseUrl } from "../../../assets/config";
 
 const CardSpotImage = ({ main_articleno, contentno, imageUrl }) => {
 	const [selectedFile, setSelectedFile] = useState(null);

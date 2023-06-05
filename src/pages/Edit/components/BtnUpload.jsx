@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import styles from "../Edit.module.scss";
 import axios from "axios";
-import { baseUrl } from "../config";
+import { baseUrl } from "../../../assets/config";
 
 const BtnUpload = ({ main_articleno, contentno, onFileUpload }) => {
 	const fileInputRef = useRef(null);

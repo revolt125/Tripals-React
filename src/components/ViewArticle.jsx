@@ -6,12 +6,13 @@ import mapStyles from "../pages/Edit/components/mapStyles";
 import axios from "axios";
 import BearLogo from "./smallcomponent/BearLogo";
 import useSwaAlert from "../components/swaAlert";
+import { baseUrl } from "../assets/config";
 
 function ViewArticle({ currentUser, setCurrentUser }) {
 	// swaAlert
 	const swaAlert = useSwaAlert();
 
-	const url = "http://localhost:8000";
+	const url = baseUrl;
 	const [userno, setuserno] = useState(
 		currentUser ? JSON.parse(currentUser)[0].userno : ""
 	);
@@ -76,9 +77,7 @@ function ViewArticle({ currentUser, setCurrentUser }) {
 		console.log("AddTime:" + AddTime);
 		return () => window.removeEventListener("resize", handleWindowSize);
 	}, []);
-	const AvatarUrl = avatar
-		? url + `/${avatar}`
-		: "http://localhost:8000/useravatar/pre.png";
+	const AvatarUrl = avatar ? url + `/${avatar}` : `${url}/useravatar/pre.png`;
 	const containerStyle = {
 		height: "100%",
 	};
