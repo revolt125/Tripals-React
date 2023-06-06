@@ -47,14 +47,14 @@ const Register = (props) => {
 		<div className="page">
 			<div id="RegisterPage">
 				<h1>註冊Tripals</h1>
-				<input type="button" value="透過Google繼續" />
+				{/* <input type="button" value="透過Google繼續" />
 				<input type="button" value="透過Facebook繼續" />
 
 				<div id="hrOr">
 					<hr />
 					<p>OR</p>
 					<hr />
-				</div>
+				</div> */}
 				<form id="RegisterForm">
 					<label htmlFor="id">信箱</label>
 					<input
