@@ -38,7 +38,7 @@ function App() {
 	let [avatarImg, setavatarImg] = useState("");
 
 	const { isLoaded, loadError } = useLoadScript({
-		googleMapsApiKey: "AIzaSyAPOMZXMZfyOy1zrlETRf727BEzshgi2oM",
+		googleMapsApiKey: "AIzaSyBlQOff30AISBhL5WgHRw4kaoB-LnzjXUQ",
 		libraries: libraries,
 	});
 
